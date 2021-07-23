@@ -27,6 +27,17 @@ h1 {
     h1{
         font-size: 20px;
         padding-top: 10px;
+        animation: floatText 4s infinite alternate;
+    }
+    @keyframes floatText {
+        from {
+            margin-left: -60%;
+            color: rgba(204, 197, 197, 0.822);
+        }
+        to {
+            margin-left: 60%;
+            color: rgb(250, 250, 250);
+        }
     }
 }
 
