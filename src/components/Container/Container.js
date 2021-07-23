@@ -21,7 +21,7 @@ const Container = () => (
                 <label>Password</label>
                 <input type="password" placeholder="Enter your password" />
             </div>
-            <button type="submit">Submit</button>
+            <button type="submit">Sign Up</button>
         </form>
     </div>
 )
